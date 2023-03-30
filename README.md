@@ -1,6 +1,5 @@
 # Life_Expectancy_Prediction_with_R
 
-ReadMe
 
 Machine Learning Prediction of Life Expectancy using Support Vector Machine (SVM).
 This study aims to predict life expectancy using support vector machine (SVM) linear machine learning algorithm. By doing so, it will investigate the factors that significantly contribute to life expectancy and evaluate the performance of the SVM algorithm in predicting life expectancy. The dataset used in this project is the World Health Organization (WHO) life expectancy dataset, which contains various features such as GDP, education level, alcohol consumption, adult mortality, BMI, and more. The project was written in R language and the main libraries used were e1071, caret, corrplot, CatEncoder, and tidyverse.
