@@ -15,7 +15,7 @@ library(e1071, caret, corrplot, CatEncoder, tidyverse)
 df <- read.csv("life_expectancy.csv")
 
 Dataset
-The WHO life expectancy dataset used in this project can be found in the data folder. It contains 22 features and 2938 instances. The dataset was downloaded from Kaggle which was originally obtained from the World Health Organization (WHO) data repository website for 15 years (2000 – 2015) dataset concerning life expectancy for 193 countries. The corresponding socio-economic datapoints were collected from the United Nations database. The data set will be used to predict the life expectancy of each represented country for the period of 15 years.
+The WHO life expectancy dataset used in this project can be found in the life_expectancy.csv folder. It contains 22 features and 2938 instances. The dataset was downloaded from Kaggle which was originally obtained from the World Health Organization (WHO) data repository website for 15 years (2000 – 2015) dataset concerning life expectancy for 193 countries. The corresponding socio-economic datapoints were collected from the United Nations database. The data set will be used to predict the life expectancy of each represented country for the period of 15 years.
 
 Methodology
 1.	Data Pre-processing: The dataset was cleaned, and the data type of population column was converted into numeric from character. The missing values in all numeric data were fixed with median values. NB: If mean or mode were used, it will give less accurate results because most of the features have skewed distribution. 
